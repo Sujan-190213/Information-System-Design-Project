@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div style="border-radius: 5px;background-color: #f2f2f2;padding: 20px;">
+  <h1 align="center">Patient's Appoinment Information</h1>
+  <table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Patient's ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone No:</th>
+      <th scope="col">Selected Test</th>
+      <th scope="col">TrxID</th>
+      <th scope="col">Amount Paid</th>
+      <th scope="col">Amount Due</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Sujan Dhali</td>
+      <td>sujan13@gmail.com</td>
+      <td>+8801757405814</td>
+      <td>
+        <select>
+          <option>Amylase Test</option>
+          <option>CT Scans</option>
+          <option>Blood Sugar Test</option>
+          <option>CBC </option>
+        </select>
+      </td>
+      <td>8AG9870D9L</td>
+      <td>৳10530.00</td>
+      <td>৳0.00</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Ratan Mondal</td>
+      <td>ratan33@gmail.com</td>
+      <td>+880175605816</td>
+      <td>
+        <select>
+          <option>CT Scans</option>
+          <option>Blood Sugar Test</option>
+          <option>MRI Scans</option>
+          <option>PET Scan</option>
+        </select>
+      </td>
+      <td>7BR9870H9T</td>
+      <td>৳5530.00</td>
+      <td>৳0.00</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>Eva Rahman</td>
+      <td>eva22@gmail.com</td>
+      <td>+8801956058454</td>
+      <td>
+        <select>
+          <option>MRI Scans</option>
+          <option>CT Scans</option>
+          <option>Blood Sugar Test</option>
+          <option>PET Scan</option>
+        </select>
+      </td>
+      <td>5BF9470L6M</td>
+      <td>৳6530.00</td>
+      <td>৳0.00</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<hr>
+<br>
+
+<h1 align="center">Payment Information</h1>
+  <table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Patient's ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Selected Test</th>
+      <th scope="col">Amount Paid</th>
+      <th scope="col">Amount Due</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Sujan Dhali</td>
+      <td>
+        <select>
+          <option>Amylase Test</option>
+          <option>CT Scans</option>
+          <option>Blood Sugar Test</option>
+          <option>CBC </option>
+        </select>
+      </td>
+      <td>৳10530.00</td>
+      <td>৳0.00</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Ratan Mondal</td>
+      <td>
+        <select>
+          <option>CT Scans</option>
+          <option>Blood Sugar Test</option>
+          <option>MRI Scans</option>
+          <option>PET Scan</option>
+        </select>
+      </td>
+      <td>৳5530.00</td>
+      <td>৳0.00</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>Eva Rahman</td>
+      <td>
+        <select>
+          <option>MRI Scans</option>
+          <option>CT Scans</option>
+          <option>Blood Sugar Test</option>
+          <option>PET Scan</option>
+        </select>
+      </td>
+      <td>৳6530.00</td>
+      <td>৳0.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<br>
+<hr>
+<br>
+
+<h1 align="center">Receptionist Information</h1>
+  <table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Receptionist's ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Schedule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Sujan Dhali</td>
+      <td>sujan@gmail.com</td>
+      <td>10.00 AM - 11:30 AM</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Motiur Rahman</td>
+      <td>moti@gmail.com</td>
+      <td>01.00 PM - 2:30 PM</td>
+    </tr>
+        <tr>
+      <th scope="row">3</th>
+      <td>Noor Islam</td>
+      <td>noor@gmail.com</td>
+      <td>03.00 PM - 5:30 PM</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Masum Ryhan</td>
+      <td>masum@gmail.com</td>
+      <td>06.00 PM - 10:30 PM</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<hr>
+<br>
+
+<form action="">
+ <h3 style="text-align: center;">Feedback</h3> 
+ <hr>
+ <br><label>Patient ID : </label>
+<input type="text" name="">
+<button><a href="appinmentFeedback.html">Appoinment Feedback</a></button>
+<br><br>
+<label>Patient ID : </label>
+<input type="text" name="">
+<button><a href="feedback.html">Payment Feedback</a></button>
+</form>
+</div>
+</body>
+</html>

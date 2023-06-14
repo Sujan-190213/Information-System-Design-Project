@@ -1,0 +1,32 @@
+h1{
+	color:#FF5733; 
+}
+
+img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width:500px;
+}
+
+.image{
+	display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+	height: 100px;
+    width:200px;
+}
+
+p{
+	color:red;  
+}
+
+span{
+	color: green;
+}
+a
+{
+  text-decoration: none;
+}

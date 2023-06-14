@@ -1,0 +1,28 @@
+h1{
+	text-align: center;
+}
+img{
+	height: 300px;
+	width: 350px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+div{
+	text-align: center;
+}
+.signUp{
+	color: #FF5733;
+	height: 50px;
+	width: 200px;
+}
+
+label{
+	color: blue;
+}
+a
+{
+	text-decoration: none;
+	height: 50px;
+	width: 200px;
+}
